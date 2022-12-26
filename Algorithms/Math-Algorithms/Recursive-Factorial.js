@@ -19,10 +19,11 @@ function recursiveFactorial(n)
     return n*recursiveFactorial(n-1);
 
 }
+debugger
 
-console.log(recursiveFactorial(0));
+//console.log(recursiveFactorial(0));
 console.log(recursiveFactorial(5));
-console.log(recursiveFactorial(7));
+// console.log(recursiveFactorial(7));
 
 
 // Big-O = O(n)
