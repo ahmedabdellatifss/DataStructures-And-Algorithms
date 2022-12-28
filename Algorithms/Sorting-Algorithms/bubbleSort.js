@@ -25,3 +25,7 @@ function bubbleSort(arr){
 const arr = [8, 20, -2, 4, -6];
 bubbleSort(arr);
 console.log(arr); //[ -6, -2, 4, 8, 20 ]
+
+
+// Time Complexity = O( n^2 )
+// because we have two loop or nested loop

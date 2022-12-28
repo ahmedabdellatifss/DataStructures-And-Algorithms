@@ -1,0 +1,27 @@
+// problem statment: Given an array of integers, sort the array 
+
+// NTI => Number To Insert => means the first element is not sorted
+// SE => sympol to ->Sorted Element
+
+function  insertionSort(arr){
+    for(let i=1; i< arr.length; i++){
+        let numberToInsert = arr[i];
+        let SE = i-1;
+        
+        while( SE >= 0 && arr[SE] > numberToInsert){
+             arr[SE+1] = arr[SE]
+             SE = SE - 1;
+        }
+        arr[SE+1] = numberToInsert;
+    }
+}
+
+
+const arr = [8, 20, -2, 4, -6 ];
+
+insertionSort(arr);
+
+console.log(arr); // [ -6, -2, 4, 8, 20 ]
+
+// Time Complexity = O( n^2 )
+// because we have two loop or nested loop

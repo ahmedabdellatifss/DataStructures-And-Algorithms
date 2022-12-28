@@ -27,4 +27,4 @@ console.log(recursiveBinarySearch([-5,2,4,6,10], 20)); //-1
 
 
 // Time Complexity = O( log n )
-//becouse input Size reduces by half every time
+//because input Size reduces by half every time
