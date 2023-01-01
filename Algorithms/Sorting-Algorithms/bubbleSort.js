@@ -3,11 +3,12 @@
 // sorting can either be asending or descending
 
 // Bubble Sort Idea
-// Compare adjacent elements in the arrat and swap the positions if they are not in the itended order
+// Compare adjacent elements in the array and swap the positions if they are not in the itended order
 // Repeat the instruction as you step through each elements in the array
 // Once you step through the whole array with no swaps, the array is sorted
 
 function bubbleSort(arr){
+    debugger
     let swapped;
     do{
         swapped = false;
